@@ -1,0 +1,6 @@
+edit tests/b2_3_fixedErroneusLoad.txt
+solve tests/b2_3_fixedErroneusLoad.txt
+validate
+edit tests/b2_3_nonfixedErroneusLoad.txt
+solve tests/b2_3_nonfixedErroneusLoad.txt
+validate

@@ -1,0 +1,40 @@
+solve     
+solve askdfh
+	solve	 dskfj alsdf s
+
+edit     
+edit askdfh
+	edit	 dskfj alsdf s
+
+mark_errors
+	 mark_errors   0adf 0
+mark_errors 1
+
+print_board sdf
+print_board 
+
+set 3 j 4 2
+set 12 23 23 dsalf;d
+
+validate   
+
+generate 3 5 5
+generate 4 4
+
+undo asldkf
+
+	redo aaaa
+redo
+
+save 333333003adsf all
+
+hint 4 4 4 4
+hint sa 44 4
+
+num_solutions
+
+autofill
+
+reset
+
+exit

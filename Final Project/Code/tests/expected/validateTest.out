@@ -1,0 +1,62 @@
+Sudoku
+------
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |  3.  1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |  3.  1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Validation failed: board is unsolvable
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Validation passed: board is solvable
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|      1*|      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Error: board contains erroneous values
+Enter your command:
+-------------------
+|  1   2 |  4     |
+|        |  3   1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+Validation failed: board is unsolvable
+Enter your command:
+-------------------
+|  1   2 |  4     |
+|        |      1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+Validation passed: board is solvable
+Enter your command:
+Exiting...

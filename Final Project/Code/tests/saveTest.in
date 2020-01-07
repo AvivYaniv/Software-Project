@@ -1,0 +1,40 @@
+solve tests/b2_2.txt
+autofill
+autofill
+validate
+save tests/observed/save_solve_board.txt
+edit tests/b2_2.txt
+set 1 1 0
+set 2 1 0
+set 3 1 0
+set 4 1 0
+set 2 2 3
+set 3 3 1
+save tests/observed/save_edit_board.txt
+solve tests/b2_2.txt
+set 2 2 2
+save tests/observed/save_board2.txt
+undo
+set 3 2 3
+validate
+save tests/observed/save_board3.txt
+edit tests/b2_2.txt
+set 3 2 3
+validate
+save tests/observed/save_board4.txt
+set 2 2 2
+save tests/observed/save_board5.txt
+solve tests/b2_2.txt
+save tests/path/that/does/not/exist.txt
+set 2 4 2
+save tests/observed/save_test_with_error.txt
+solve tests/observed/save_test_with_error.txt
+print_board
+mark_errors 0
+solve tests/observed/save_test_with_error.txt
+print_board
+edit tests/observed/save_test_with_error.txt
+print_board
+save tests/observed/save_test_with_error2.txt
+undo
+exit

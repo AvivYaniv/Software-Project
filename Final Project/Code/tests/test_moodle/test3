@@ -1,0 +1,8 @@
+solve in
+set 1 2 2
+undo
+set 1 1 3
+undo
+set 1 2 3
+save out
+exit

@@ -1,0 +1,21 @@
+edit
+print_board
+edit pathToFileThatDoesntExist.txt
+edit tests/b2_2.txt
+print_board
+undo
+redo
+reset
+print_board
+set 4 4 4
+set 1 4 1
+set 2 4 1
+mark_errors 0
+print_board
+save tests/observed/edit_out_board1.txt
+set 1 4 2
+save tests/observed/edit_out_board2.txt
+edit tests/b2_2_empty.txt
+print_board
+undo
+exit

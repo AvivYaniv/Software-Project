@@ -1,0 +1,7 @@
+solve tests/b2_2-notValid.txt
+validate
+solve b2_2.txt
+validate
+set 2 2 1
+validate
+exit

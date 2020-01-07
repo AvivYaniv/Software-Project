@@ -1,0 +1,105 @@
+solve tests/b2_3.txt
+print_board
+autofill
+set 4 5 3
+set 4 6 5
+undo
+redo
+set 3 5 1
+num_solutions
+hint 5 5
+hint 6 5
+set 5 6 2
+mark_errors 0
+print_board
+mark_errors 1
+print_board
+undo
+validate
+save tests/observed/b2_3-saveTestSolve.txt
+edit tests/observed/b2_3-saveTestSolve.txt
+print_board
+set 3 4 1
+set 3 5 4
+undo 
+undo
+save tests/observed/b2_3-saveTestEdit.txt
+solve tests/observed/b2_3-saveTestSolve.txt
+print_board
+set 3 4 1
+set 3 5 4
+edit tests/b4_2.txt
+set 7 5 1
+reset
+num_solutions
+hint 1 1
+validate
+set 6 2 3
+save tests/observed/b4_2-saved.txt
+solve tests/observed/b4_2-saved.txt
+print_board
+set 7 1 2
+validate 
+num_solutions
+reset
+autofill
+undo
+redo
+validate
+num_solutions
+set 1 2 4
+hint 1 1
+hint 2 1
+hint 1 3
+autofill
+hint 1 1
+set 4 3 3
+undo
+set 4 3 1
+undo
+save tests/observed/b4_2-saved2.txt
+solve tests/observed/b4_2-saved2.txt
+set 1 1 7
+set 4 1 7
+undo
+undo
+validate
+autofill
+solve tests/b1_1.txt
+print_board
+hint 1 1
+set 1 1 0 
+set 1 1 1
+edit tests/b1_1.txt
+print_board
+generate 0 0 
+generate 1 0 
+undo
+generate 0 1 
+undo
+generate 1 1
+solve tests/b2_6.txt
+print_board
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+num_solutions
+set 2 1 10
+undo
+num_solutions
+set 2 3 10
+save tests/observed/b2x6-saveTestSolve.txt
+solve tests/observed/b2x6-saveTestSolve.txt
+print_board
+autofill
+hint 3 5
+set 3 5 10

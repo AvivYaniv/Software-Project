@@ -1,0 +1,25 @@
+mark_errors 0
+solve tests/bgbgbg.txt
+set 6 8 8
+set 5 7 8
+mark_errors 0
+print_board
+mark_errors 1
+print_board
+mark_errors 0
+edit tests/bgbgbg.txt
+set 6 8 8
+set 5 7 8
+mark_errors 0
+print_board
+mark_errors 1
+solve tests/b2_2.txt #parameters check
+print_board
+mark_errors
+mark_errors 0
+mark_errors 		1 	 
+mark_errors 	  0  
+mark_errors aaaaa
+mark_errors 0d
+mark_errors b
+exit

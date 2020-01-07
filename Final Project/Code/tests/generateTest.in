@@ -1,0 +1,20 @@
+solve tests/b3_2_empty.txt
+generate 4 4
+edit tests/b3_3_empty.txt
+generate 81 1 #the chances for success are low. this should fail. 
+undo
+redo
+print_board
+generate 0 0 adfas
+undo
+print_board
+edit tests/b2_2.txt
+generate 17 4
+generate 4 17
+generate 4 a
+generate b 7
+generate 1
+generate
+generate  3 3
+generate  17 3
+exit

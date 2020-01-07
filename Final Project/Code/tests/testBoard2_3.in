@@ -1,0 +1,30 @@
+solve tests/b2_3.txt
+print_board
+autofill
+set 4 5 3
+set 4 6 5
+undo
+redo
+set 3 5 1
+num_solutions
+hint 5 5
+hint 6 5
+set 5 6 2
+mark_errors 0
+print_board
+mark_errors 1
+print_board
+undo
+validate
+save tests/observed/b2_3-saveTestSolve.txt
+edit tests/observed/b2_3-saveTestSolve.txt
+print_board
+set 3 4 1
+set 3 5 4
+undo 
+undo
+save tests/observed/b2_3-saveTestEdit.txt
+solve tests/observed/b2_3-saveTestSolve.txt
+print_board
+set 3 4 1
+set 3 5 4

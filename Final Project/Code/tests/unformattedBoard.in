@@ -1,0 +1,7 @@
+
+	 	  
+      	 	      
+solve tests/b2_3_unformatted.txt
+solve tests/b2_2_unformatted.txt
+edit tests/b2_3_unformatted.txt
+edit tests/b2_2_unformatted.txt

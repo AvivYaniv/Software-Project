@@ -1,0 +1,16 @@
+mark_errors 1
+print_board
+set 1 1 1
+validate
+generate 4 4
+undo
+redo
+save 
+hint
+num_solutions
+autofill
+reset
+solve
+edit
+print_board
+exit

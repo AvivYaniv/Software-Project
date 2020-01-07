@@ -1,0 +1,6 @@
+solve tests/b3_3_faltyAutofill.txt
+print_board
+num_solutions
+validate
+autofill
+validate

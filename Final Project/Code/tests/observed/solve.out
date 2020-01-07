@@ -1,0 +1,71 @@
+Sudoku
+------
+Enter your command:
+Error: File doesn't exist or cannot be opened
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Cell <4,1> set to 3
+-------------------
+|  1.  2.|  4.  3 |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Cell <3,2> set to 2
+Cell <4,4> set to 4
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |      2.|
+|        |      4 |
+-------------------
+Enter your command:
+Validation passed: board is solvable
+Enter your command:
+Saved to: tests/observed/solve_board.txt
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |      2.|
+|        |      4 |
+-------------------
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Error: cell is fixed
+Enter your command:
+Error: cell is fixed
+Enter your command:
+Error: cell is fixed
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+ERROR: invalid command
+Enter your command:
+ERROR: invalid command
+Enter your command:
+Exiting...

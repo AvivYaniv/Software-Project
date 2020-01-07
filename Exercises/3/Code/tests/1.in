@@ -1,0 +1,11 @@
+80
+hint 9 4 
+validate
+set 9 4 4 8 
+hint 1 1
+validate
+set 1 1 1
+restart
+80
+set 5 8 6
+exit

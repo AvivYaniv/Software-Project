@@ -1,0 +1,15 @@
+solve file_that_does_not_exist.txt
+solve tests/b2_2.txt
+autofill
+autofill
+validate
+save tests/observed/solve_board.txt
+solve tests/observed/solve_board.txt
+solve tests/b2_2.txt
+set 1 1 0
+set 2 1 0
+set 3 1 0
+set 4 1 0
+solve
+solve     	 	 	
+exit

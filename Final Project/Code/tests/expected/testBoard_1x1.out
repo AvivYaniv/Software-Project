@@ -1,0 +1,54 @@
+Sudoku
+------
+Enter your command:
+------
+|    |
+------
+Enter your command:
+------
+|    |
+------
+Enter your command:
+Hint: set cell to 1
+Enter your command:
+------
+|    |
+------
+Enter your command:
+------
+|  1 |
+------
+Puzzle solved successfully
+Enter your command:
+------
+|    |
+------
+Enter your command:
+------
+|    |
+------
+Enter your command:
+------
+|    |
+------
+Enter your command:
+------
+|    |
+------
+Enter your command:
+Error: no moves to undo
+Enter your command:
+------
+|  1 |
+------
+Enter your command:
+------
+|    |
+------
+Undo 1,1: from 1 to _
+Enter your command:
+------
+|  1 |
+------
+Enter your command:
+Exiting...

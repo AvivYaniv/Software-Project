@@ -1,0 +1,4 @@
+solve tests/b2_2_comp.txt
+edit tests/b2_2_comp.txt
+set 1 2 1
+exit

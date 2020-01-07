@@ -1,0 +1,5 @@
+edit tests/b2_2_comp.txt
+print_board
+set 1 2 2
+solve tests/b2_2_comp.txt
+exit

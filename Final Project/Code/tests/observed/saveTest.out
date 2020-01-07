@@ -1,0 +1,235 @@
+Sudoku
+------
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Cell <4,1> set to 3
+-------------------
+|  1.  2.|  4.  3 |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Cell <3,2> set to 2
+Cell <4,4> set to 4
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |      2.|
+|        |      4 |
+-------------------
+Enter your command:
+Validation passed: board is solvable
+Enter your command:
+Saved to: tests/observed/save_solve_board.txt
+Enter your command:
+-------------------
+|  1   2 |  4     |
+|        |      1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+-------------------
+|      2 |  4     |
+|        |      1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+-------------------
+|        |  4     |
+|        |      1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+-------------------
+|        |        |
+|        |      1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+-------------------
+|        |        |
+|        |      1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+-------------------
+|        |        |
+|      3 |      1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+-------------------
+|        |        |
+|      3 |      1 |
+-------------------
+|        |  1   2 |
+|        |        |
+-------------------
+Enter your command:
+Saved to: tests/observed/save_edit_board.txt
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|      2*|      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Saved to: tests/observed/save_board2.txt
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Undo 2,2: from 2 to _
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |  3   1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Validation failed: board is unsolvable
+Enter your command:
+Saved to: tests/observed/save_board3.txt
+Enter your command:
+-------------------
+|  1   2 |  4     |
+|        |      1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+-------------------
+|  1   2 |  4     |
+|        |  3   1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+Validation failed: board is unsolvable
+Enter your command:
+Error: board validation failed
+Enter your command:
+-------------------
+|  1   2*|  4     |
+|      2*|  3   1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+Error: board contains erroneous values
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Error: File cannot be created or modified
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|      2*|        |
+-------------------
+Enter your command:
+Saved to: tests/observed/save_test_with_error.txt
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|      2*|        |
+-------------------
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|      2*|        |
+-------------------
+Enter your command:
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|      2 |        |
+-------------------
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|      2 |        |
+-------------------
+Enter your command:
+-------------------
+|  1   2*|  4     |
+|        |      1 |
+-------------------
+|        |      2 |
+|      2*|        |
+-------------------
+Enter your command:
+-------------------
+|  1   2*|  4     |
+|        |      1 |
+-------------------
+|        |      2 |
+|      2*|        |
+-------------------
+Enter your command:
+Error: board contains erroneous values
+Enter your command:
+Error: no moves to undo
+Enter your command:
+Exiting...

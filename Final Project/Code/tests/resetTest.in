@@ -1,0 +1,16 @@
+reset
+solve tests/bgbgbg.txt
+print_board
+reset
+undo
+set 1 1 1
+set 2 1 2
+reset 2 1 3
+print_board
+redo 
+edit tests/bgbgbg.txt
+reset
+set 1 1 1
+reset
+print_board
+exit

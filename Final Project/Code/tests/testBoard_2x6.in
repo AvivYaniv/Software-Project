@@ -1,0 +1,25 @@
+solve tests/b2_6.txt
+print_board
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+autofill
+num_solutions
+set 2 1 10
+undo
+num_solutions
+set 2 3 10
+save tests/observed/b2x6-saveTestSolve.txt
+solve tests/observed/b2x6-saveTestSolve.txt
+print_board
+autofill
+hint 3 5
+set 3 5 10

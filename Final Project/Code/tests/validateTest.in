@@ -1,0 +1,13 @@
+solve tests/b2_2-notValid.txt
+print_board
+validate
+solve tests/b2_2.txt
+validate
+set 2 2 1
+validate
+edit tests/b2_2-notValid.txt
+validate
+edit tests/b2_2.txt
+validate
+exit
+

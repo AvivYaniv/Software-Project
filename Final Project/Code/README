@@ -1,0 +1,12 @@
+Compilation:
+In order to compile and use gurobi ILP solver, run:
+> make all
+
+In order to compile and use backtrack solver (for local testings not on nova), run:
+> make all SOLVER_BT=1
+
+Assumptions:
+The board may/may not be printed after undo/redo/reset
+
+"set set 1 1 1" can be 'invalid command'/'parameter not in range 0-N'
+

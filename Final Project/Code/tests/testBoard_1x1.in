@@ -1,0 +1,13 @@
+solve tests/b1_1.txt
+print_board
+hint 1 1
+set 1 1 0 
+set 1 1 1
+edit tests/b1_1.txt
+print_board
+generate 0 0 
+generate 1 0 
+undo
+generate 0 1 
+undo
+generate 1 1

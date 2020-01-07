@@ -1,0 +1,313 @@
+Sudoku
+------
+Enter your command:
+-------------------
+|        |        |
+|        |        |
+-------------------
+|        |        |
+|        |        |
+-------------------
+Enter your command:
+Number of solutions: 288
+The puzzle has more than 1 solution, try to edit it further
+Enter your command:
+-----------
+|    |    |
+|    |    |
+-----------
+Enter your command:
+Number of solutions: 2
+The puzzle has more than 1 solution, try to edit it further
+Enter your command:
+-----------
+|    |  1 |
+|    |    |
+-----------
+Enter your command:
+Number of solutions: 1
+This is a good board!
+Enter your command:
+-------------------
+|  1   2 |  4     |
+|        |      1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+-------------------
+|  1   2 |  4     |
+|        |      1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+Number of solutions: 3
+The puzzle has more than 1 solution, try to edit it further
+Enter your command:
+-------------------
+|  1   2 |  4*    |
+|        |  4*  1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Enter your command:
+Error: board contains erroneous values
+Enter your command:
+-------------------
+|  1   2 |  4     |
+|        |      1 |
+-------------------
+|        |      2 |
+|        |        |
+-------------------
+Undo 3,2: from 4 to _
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+-------------------
+|  1.  2.|  4.    |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Cell <4,1> set to 3
+-------------------
+|  1.  2.|  4.  3 |
+|        |      1.|
+-------------------
+|        |      2.|
+|        |        |
+-------------------
+Enter your command:
+Cell <3,2> set to 2
+Cell <4,4> set to 4
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |      2.|
+|        |      4 |
+-------------------
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |      2.|
+|  2     |      4 |
+-------------------
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |      2.|
+|  2   1 |      4 |
+-------------------
+Enter your command:
+Cell <3,4> set to 3
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |      2.|
+|  2   1 |  3   4 |
+-------------------
+Enter your command:
+Cell <3,3> set to 1
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |  1   2.|
+|  2   1 |  3   4 |
+-------------------
+Enter your command:
+Number of solutions: 2
+The puzzle has more than 1 solution, try to edit it further
+Enter your command:
+Error: cell is fixed
+Enter your command:
+Error: cell is fixed
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |  1   2.|
+|      1 |  3   4 |
+-------------------
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |  1   2.|
+|        |  3   4 |
+-------------------
+Enter your command:
+Number of solutions: 2
+The puzzle has more than 1 solution, try to edit it further
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|  4     |  2   1.|
+-------------------
+|        |  1   2.|
+|        |  3   4 |
+-------------------
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|  4     |  2   1.|
+-------------------
+|      4 |  1   2.|
+|        |  3   4 |
+-------------------
+Enter your command:
+Number of solutions: 1
+This is a good board!
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|  4     |  2   1.|
+-------------------
+|      4 |  1   2.|
+|        |  3   4 |
+-------------------
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|  4     |  2   1.|
+-------------------
+|      3 |  1   2.|
+|        |  3   4 |
+-------------------
+Enter your command:
+Number of solutions: 0
+Enter your command:
+Validation failed: board is unsolvable
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|  4     |  2   1.|
+-------------------
+|      4 |  1   2.|
+|        |  3   4 |
+-------------------
+Undo 2,3: from 3 to 4
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|  4     |  2   1.|
+-------------------
+|        |  1   2.|
+|        |  3   4 |
+-------------------
+Undo 2,3: from 4 to _
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |  1   2.|
+|        |  3   4 |
+-------------------
+Undo 1,2: from 4 to _
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |  1   2.|
+|      1 |  3   4 |
+-------------------
+Undo 2,4: from _ to 1
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |  1   2.|
+|  2   1 |  3   4 |
+-------------------
+Undo 1,4: from _ to 2
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |      2.|
+|  2   1 |  3   4 |
+-------------------
+Undo 3,3: from 1 to _
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |      2.|
+|  2   1 |      4 |
+-------------------
+Undo 3,4: from 3 to _
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|        |  2   1.|
+-------------------
+|        |      2.|
+|  2     |      4 |
+-------------------
+Undo 2,4: from 1 to _
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|  4     |  2   1.|
+-------------------
+|        |      2.|
+|  2     |      4 |
+-------------------
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|  4     |  2   1.|
+-------------------
+|      4 |      2.|
+|  2     |      4 |
+-------------------
+Enter your command:
+Number of solutions: 1
+This is a good board!
+Enter your command:
+-------------------
+|  1.  2.|  4.  3 |
+|  4     |  2   1.|
+-------------------
+|      4 |  1   2.|
+|  2     |      4 |
+-------------------
+Enter your command:
+Cell <2,2> set to 3
+Cell <1,3> set to 3
+Cell <3,4> set to 3
+-------------------
+|  1.  2.|  4.  3 |
+|  4   3 |  2   1.|
+-------------------
+|  3   4 |  1   2.|
+|  2     |  3   4 |
+-------------------
+Enter your command:
+Exiting...

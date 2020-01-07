@@ -1,0 +1,47 @@
+solve tests/b2_2_empty.txt
+num_solutions
+edit tests/b2_1_empty.txt
+num_solutions
+set 2 1 1
+num_solutions
+edit tests/b2_2.txt
+print_board
+num_solutions
+set 3 2 4
+num_solutions
+undo
+solve tests/b2_2.txt
+print_board
+autofill
+autofill
+set 1 4 2
+set 2 4 1
+autofill
+autofill
+num_solutions
+set 1 1 0
+set 2 1 0
+set 1 4 0
+set 2 4 0
+num_solutions
+set 1 2 4
+set 2 3 4
+num_solutions
+set 1 2 4
+set 2 3 3
+num_solutions
+validate
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+set 1 2 4
+set 2 3 4
+num_solutions
+set 3 3 1
+autofill
+exit

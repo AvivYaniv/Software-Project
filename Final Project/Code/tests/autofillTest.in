@@ -1,0 +1,29 @@
+edit tests/b3_2_empty.txt
+autofill
+solve tests/b3_2_empty.txt
+set 1 1 1
+set 4 4 4
+autofill
+undo
+undo
+undo
+redo
+print_board
+redo
+print_board
+solve tests/b2_2.txt
+autofill
+autofill
+autofill
+undo
+print_board
+redo
+print_board
+set 1 2 4
+autofill
+autofill
+set 3 4 1
+autofill
+undo
+autofill
+exit

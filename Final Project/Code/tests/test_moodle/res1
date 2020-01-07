@@ -1,0 +1,17 @@
+Sudoku
+------
+Enter your command:
+Enter your command:
+Error: cell is fixed
+Enter your command:
+----------------------------
+|  1   2 |        |        |
+|        |        |        |
+|        |  4     |        |
+----------------------------
+|        |        |        |
+|        |      5 |        |
+|        |        |  3.    |
+----------------------------
+Enter your command:
+Exiting...

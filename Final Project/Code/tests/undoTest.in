@@ -1,0 +1,56 @@
+solve tests/bgbgbg.txt
+print_board
+autofill
+autofill
+autofill
+undo
+set 1 1 1
+set 2 1 2
+undo
+undo
+set 2 1 3
+reset
+undo
+redo
+set 1 1 1
+autofill
+undo
+undo
+undo
+redo
+solve tests/b2_2.txt
+autofill
+autofill
+set 1 2 4
+autofill
+autofill
+undo
+autofill
+undo
+redo
+undo
+redo
+redo
+autofill
+edit tests/bgbgbg.txt
+print_board
+undo
+set 1 1 1
+set 2 1 2
+undo
+undo
+undo
+redo
+set 2 1 3
+reset
+undo
+redo
+set 2 1 2
+set 1 1 3
+set 4 6 2
+undo
+undo
+redo
+undo
+undo
+undo

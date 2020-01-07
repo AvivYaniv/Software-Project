@@ -1,0 +1,19 @@
+solve tests/b5_1.txt
+print_board
+hint 1 3
+hint 2 4
+undo
+redo
+autofill
+num_solutions
+reset
+autofill
+autofill
+autofill
+autofill
+save tests/observed/b5x1-saveTestSolve.txt
+edit tests/observed/b5x1-saveTestSolve.txt
+print_board
+save tests/observed/b5x1-saveTestEdit.txt
+solve tests/observed/b5x1-saveTestSolve.txt
+print_board

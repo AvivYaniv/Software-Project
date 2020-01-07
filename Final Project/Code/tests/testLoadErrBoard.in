@@ -1,0 +1,11 @@
+solve tests/b2_3_err.txt
+print_board
+mark_errors 0
+solve tests/b2_3_err.txt
+print_board
+mark_errors 1
+solve tests/b2_3_err.txt
+print_board
+edit tests/b2_3_err.txt
+print_board
+mark_errors 0
