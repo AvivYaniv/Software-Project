@@ -8,6 +8,10 @@ This course focuses on C language, on [C99](https://en.wikipedia.org/wiki/C99) d
 [Exercises 3](https://github.com/AvivYaniv/Software-Project/blob/master/Exercises/3/Assignment3.pdf) : [Solving Sudoku](https://en.wikipedia.org/wiki/Sudoku) using [Backtracking Algorithm](https://en.wikipedia.org/wiki/Backtracking). <br/>
 [Final Project](https://github.com/AvivYaniv/Software-Project/blob/master/Final%20Project/FinalProject.pdf) : [Solving Sudoku](https://en.wikipedia.org/wiki/Sudoku) using [Integer Linear Programming](https://en.wikipedia.org/wiki/Integer_programming) optimization solver [Gurobi](https://en.wikipedia.org/wiki/Gurobi). <br/>
 
+<p align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Sudoku_Puzzle_by_L2G-20050714_solution_standardized_layout.svg" width="30%"/>
+<p/>
+
 ## Topics covered
 1. The language syntax
 2. Types
