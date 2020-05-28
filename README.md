@@ -9,7 +9,7 @@ This course focuses on C language, on [C99](https://en.wikipedia.org/wiki/C99) d
 [Final Project](https://github.com/AvivYaniv/Software-Project/blob/master/Final%20Project/FinalProject.pdf) : [Solving Sudoku](https://en.wikipedia.org/wiki/Sudoku) using [Integer Linear Programming](https://en.wikipedia.org/wiki/Integer_programming) optimization solver [Gurobi](https://en.wikipedia.org/wiki/Gurobi). <br/>
 
 <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Sudoku_Puzzle_by_L2G-20050714_solution_standardized_layout.svg" width="30%"/>
+    <img src="https://github.com/AvivYaniv/Software-Project/blob/master/logo/Sudoku.svg" width="30%"/>
 <p/>
 
 ## Topics covered
