@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/AvivYaniv/Software-Project.svg)](http://hits.dwyl.com/AvivYaniv/Software-Project)
+
 # Software-Project
 
 This course focuses on C language, on [C99](https://en.wikipedia.org/wiki/C99) dialect to be precise.
