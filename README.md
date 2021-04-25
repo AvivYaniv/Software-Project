@@ -1,4 +1,5 @@
-[![HitCount](http://hits.dwyl.com/AvivYaniv/Software-Project.svg)](http://hits.dwyl.com/AvivYaniv/Software-Project)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=AvivYaniv.Software-Project.issue.1) <br/>
+[![HitCount](http://hits.dwyl.com/AvivYaniv/Software-Project.svg)](http://hits.dwyl.com/AvivYaniv/Software-Project) <br/>
 
 # Software-Project
 
